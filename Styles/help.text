@@ -1,0 +1,16 @@
+example of how to use this python3 module so that you can switch between styles easily.
+
+# main_script.py
+from Styles import BrightStyle, DarkStyle
+
+# Choose desired style (modify this line to switch styles)
+selected_style = BrightStyle  # Change to DarkStyle for dark theme
+
+# Create an instance of the chosen style class
+styler = selected_style()
+
+# Use the styling (assuming you have a method for code highlighting)
+formatted_code = styler.format_code(code_to_format)  # Implement this method
+
+# Print or use the formatted code
+print(formatted_code)
